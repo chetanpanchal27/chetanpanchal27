@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Chetan Panchal</h1>
 <h3 align="center">A passionate DevOps Engineer from Canada</h3>
-img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207..."
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207...">
 
 - 🔭 I’m currently working on **CI/CD integration with Cypress**
 
