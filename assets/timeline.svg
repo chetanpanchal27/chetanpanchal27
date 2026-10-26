@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-label="experience timeline: cloud engineer ii and i at amazon web services, sre at societe generale, devops at vcare networks, devops intern at tecsys, sre at splunk; education: concordia university and dharmsinh desai university">
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .role { font-family: Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size: 21px; font-weight: 700; fill: #f1f5f9; }
+    .org  { font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 14px; fill: #94a3b8; }
+    .when { font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 14px; fill: #cbd5e1; }
+    .tag  { font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 11px; letter-spacing: 2px; fill: #64748b; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="1199" height="639" rx="24" fill="#0f1629" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <!-- work -->
+  <text x="36" y="40" class="tag">WORK</text>
+  <line x1="60" y1="60" x2="60" y2="470" stroke="url(#rail)" stroke-width="2" stroke-opacity="0.9"/>
+
+  <!-- 1: aws cloud engineer ii (current) -->
+  <circle cx="60" cy="72" r="7" fill="#a78bfa"/>
+  <circle cx="60" cy="72" r="7" fill="none" stroke="#a78bfa" stroke-opacity="0.7">
+    <animate attributeName="r" values="7;18" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.7;0" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="92" y="79" class="role">Cloud Engineer II</text>
+  <text x="92" y="104" class="org">amazon web services · toronto · owns the hardest opensearch + streaming escalations</text>
+  <text x="1150" y="79" text-anchor="end" class="when" style="fill:#34d399">aug 2026 → now</text>
+
+  <!-- 2: aws cloud engineer i -->
+  <circle cx="60" cy="152" r="7" fill="#a78bfa"/>
+  <text x="92" y="159" class="role">Cloud Engineer I</text>
+  <text x="92" y="184" class="org">amazon web services · toronto · opensearch sme, eks + terraform, migrations with tams</text>
+  <text x="1150" y="159" text-anchor="end" class="when">nov 2024 → aug 2026</text>
+
+  <!-- 3: societe generale -->
+  <circle cx="60" cy="232" r="7" fill="#f472b6"/>
+  <text x="92" y="239" class="role">Site Reliability Engineer</text>
+  <text x="92" y="264" class="org">societe generale · montreal · release mgmt for border (us) + maple (ca), argo cd, dynatrace, splunk</text>
+  <text x="1150" y="239" text-anchor="end" class="when">jul 2024 → nov 2024</text>
+
+  <!-- 4: vcare -->
+  <circle cx="60" cy="312" r="7" fill="#f472b6"/>
+  <text x="92" y="319" class="role">DevOps Engineer</text>
+  <text x="92" y="344" class="org">vcare networks · remote, part-time · jenkins pipelines, aws ec2/rds/elb, ansible, nginx + docker</text>
+  <text x="1150" y="319" text-anchor="end" class="when">jan 2024 → jun 2024</text>
+
+  <!-- 5: tecsys -->
+  <circle cx="60" cy="392" r="7" fill="#22d3ee"/>
+  <text x="92" y="399" class="role">DevOps Engineer Intern</text>
+  <text x="92" y="424" class="org">tecsys · montreal · gitlab pipelines for k8s microservices, cut infra build failures by 98%</text>
+  <text x="1150" y="399" text-anchor="end" class="when">sep 2023 → dec 2023</text>
+
+  <!-- 6: splunk -->
+  <circle cx="60" cy="472" r="7" fill="#22d3ee"/>
+  <text x="92" y="479" class="role">Site Reliability Engineer</text>
+  <text x="92" y="504" class="org">splunk · ahmedabad · indexer + search-head clusters, spl, on-call for 300+ escalations, rcas</text>
+  <text x="1150" y="479" text-anchor="end" class="when">dec 2020 → aug 2022</text>
+
+  <!-- education -->
+  <line x1="36" y1="540" x2="1164" y2="540" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="36" y="572" class="tag">SCHOOL</text>
+
+  <text x="92" y="602" class="role" style="font-size:18px">Master of Software Engineering</text>
+  <text x="92" y="623" class="org">concordia university · montreal</text>
+  <text x="560" y="602" text-anchor="end" class="when">2022 → 2024</text>
+
+  <text x="640" y="602" class="role" style="font-size:18px">B.Tech, Information Technology</text>
+  <text x="640" y="623" class="org">dharmsinh desai university · nadiad</text>
+  <text x="1150" y="602" text-anchor="end" class="when">2017 → 2021</text>
+</svg>
